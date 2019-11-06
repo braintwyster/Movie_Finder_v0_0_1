@@ -13,6 +13,6 @@ https://yarnpkg.com/lang/en/docs/install/
 
 
 ### Run
-Run `yarn` to install packages.
+Install packages with: `yarn` 
 
-Then `yarn start` to run the App and Server.
+Run App and Server with: `yarn start`
