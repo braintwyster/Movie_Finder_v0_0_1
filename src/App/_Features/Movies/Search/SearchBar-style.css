@@ -1,0 +1,8 @@
+.SearchBar{
+    position: fixed;
+    width: 450px;
+    left: 50%;
+    top: 95px;
+    margin-left: -225px;
+    z-index: 9999999;
+}

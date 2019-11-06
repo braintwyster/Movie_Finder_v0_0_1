@@ -1,0 +1,102 @@
+.BackBtn{
+    position: fixed;
+    top: 15px;
+    z-index: 99999999;
+}
+
+.Movie {
+    min-height: 700px;
+}
+
+.m-backdrop {
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.m-data{
+    padding: 15px 10px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 55px 350px 200px;
+    grid-template-areas: 'title title'
+                        'details poster'
+                        'details castcrew';
+    z-index: 999;
+}
+
+.m-title{
+    grid-area: title;
+    font-size: 2.5em;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.m-poster{
+    grid-area: poster;
+}
+
+.m-poster img{
+    border-radius: 5px;
+}
+
+.m-details{
+    display: grid;
+    grid-gap: 5px;
+    grid-area: details;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 3fr 2fr 1fr;
+    grid-template-areas: 'synopsis deets'
+                        'synopsis deets'
+                        'other other';
+}
+
+.m-synopsis{
+    grid-area: synopsis;
+    padding: 15px;
+    margin-top: 0 !important;
+}
+
+.m-deets{
+    grid-area: deets;
+    padding: 15px;
+    margin-top: 0 !important;
+}
+
+.m-deets ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.deets-list-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 5px;
+}
+.deets-list-item.column-list{
+    flex-direction: column;
+}
+.deets-list-item:nth-child(odd){
+    background: rgba(100,100,100,0.5);
+}
+
+.list-bold{
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.list-step{
+    margin-bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.ls-half{
+    width: 50%;
+}
