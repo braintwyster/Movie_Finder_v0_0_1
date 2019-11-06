@@ -2,7 +2,7 @@
  A Movie Details Finder using the "themoviedb.org" API.
 
 
-##Install && Run
+## Install && Run
 Make sure and have NODE/NPM and Yarn installed on your computer.
 
 Node:
@@ -12,7 +12,7 @@ Yarn:
 https://yarnpkg.com/lang/en/docs/install/
 
 
-###Run
+### Run
 Run `yarn` to install packages.
 
 Then `yarn start` to run the App and Server.
