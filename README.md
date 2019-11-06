@@ -2,7 +2,7 @@
  A Movie Details Finder using the "themoviedb.org" API.
 
 
-## Install && Run
+## Before Installing
 Make sure and have NODE/NPM and Yarn installed on your computer.
 
 Node:
